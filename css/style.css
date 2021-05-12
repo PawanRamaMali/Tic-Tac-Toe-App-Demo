@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F2EF;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  section {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .app-title{
+    font-size: 3em;
+    color: #593af1;
+    margin: 0;
+  }
+  .app-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    border: 0;
+  }
+  
+  .cell {
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    height: 100px;
+    border: 0;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    color:  #060772;
+  }
+  .cell:nth-child(1){
+    border-right:8px solid #6040ffe3;
+    border-bottom:8px solid #6040ffe3;
+  }
+  .cell:nth-child(2){
+    border-right:8px solid #6040ffe3;
+    border-bottom:8px solid #6040ffe3;
+  }
+  .cell:nth-child(3){
+    border-bottom:8px solid #6040ffe3;
+  }
+  .cell:nth-child(4){
+    border-bottom:8px solid #6040ffe3;
+    border-right:8px solid #6040ffe3;
+  }
+  .cell:nth-child(5){
+    border-bottom:8px solid #6040ffe3;
+    border-right:8px solid #6040ffe3;
+  }
+  .cell:nth-child(6){
+    border-bottom:8px solid #6040ffe3;
+  }
+  .cell:nth-child(7){
+    border-right:8px solid #6040ffe3;
+  }
+  .cell:nth-child(8){
+    border-right:8px solid #6040ffe3;
+  }
+  .app-status{
+    font-size: 2rem;
+    margin: 0;
+    color:  #3d2c8f;
+  }
+  .app-restart{
+    padding: 12px 15px;
+    cursor: pointer;
+    background-color: #555ff1 ;
+    border:1px solid #4957d3;
+    border-radius: 4px;
+    transform: scale(1);
+    transition: transform 200ms ease-in-out;
+    outline: none;
+    color: #fff;
+  }
+  .app-restart:active{
+    transform: scale(1.4);
+  }
+  .app-restart:hover{
+    background-color: #6040ffe3 ;
+  }
